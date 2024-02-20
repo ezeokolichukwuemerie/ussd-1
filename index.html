@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function lifeCycle(){
+        let age = parseInt(prompt("Enter age"));
+        let ans ="Hello, Baby!";
+        let ans2 = "Hello, Child!";
+        let ans3 = "Hello, Adolescent!";
+        let ans4 = "Hello, adulthood!";
+        let ans5 = "Hello, Elderly";
+        if(age <= 2) {
+            document.write(ans);
+        }
+        else if(age <= 10 ){
+            document.write(ans2);
+        }
+        else if(age > 10 && age < 18 ){
+            document.write(ans3);
+        }
+        else if(age > 18 && age < 40){
+            document.write(ans4);
+        }
+        else if(age > 40 && age < 200) {
+            document.write(ans5);
+        }
+    }
+        lifeCycle()
+    </script>
+</body>
+</html>
